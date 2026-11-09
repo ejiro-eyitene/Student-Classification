@@ -14,40 +14,40 @@ This repository features a complete end-to-end Machine Learning pipeline and Str
 
 ## 📊 Streamlit Dashboard Features
 
-The dynamic Streamlit dashboard provides a compact interface for real-time exploratory data analysis and student filtering[cite: 1]:
+The dynamic Streamlit dashboard provides a compact interface for real-time exploratory data analysis and student filtering:
 
-- **Filter Sidebar:** Dynamic filtering by Performance Label, Parent Education Level, and Tutoring Support[cite: 1].
-- **Executive KPI Row:** Key aggregated metrics covering Total Students, Avg GPA, Avg Attendance Rate, Daily Study Hours, and Assignment Completion %[cite: 1].
-- **Study Hours by Group:** Bar chart displaying daily study habits segmented by performance classification[cite: 1].
-- **Parental Education Distribution:** Interactive donut/pie chart detailing parent background distribution[cite: 1].
-- **Dual-Axis Comparison:** Visualizing the direct relationship between Average GPA and Attendance Rate across performance groups[cite: 1].
-- **Hierarchical Treemap:** Comparative breakdown mapping Parent Education levels to student performance counts[cite: 1].
-- **Data Viewer & Download:** Interactive table allowing custom filtering and CSV export[cite: 1].
+- **Filter Sidebar:** Dynamic filtering by Performance Label, Parent Education Level, and Tutoring Support.
+- **Executive KPI Row:** Key aggregated metrics covering Total Students, Avg GPA, Avg Attendance Rate, Daily Study Hours, and Assignment Completion %.
+- **Study Hours by Group:** Bar chart displaying daily study habits segmented by performance classification.
+- **Parental Education Distribution:** Interactive donut/pie chart detailing parent background distribution.
+- **Dual-Axis Comparison:** Visualizing the direct relationship between Average GPA and Attendance Rate across performance groups.
+- **Hierarchical Treemap:** Comparative breakdown mapping Parent Education levels to student performance counts.
+- **Data Viewer & Download:** Interactive table allowing custom filtering and CSV export.
 
 ---
 
 ## 🔬 Machine Learning Summary & Results
 
 ### Dataset Overview
-* **Total Records:** 200 student profiles[cite: 2]
-* **Features:** 11 numerical and categorical input features (GPA, Study Hours, Attendance Rate, Class Participation, Parent Education, etc.)[cite: 2]
-* **Target Variable:** `Performance_Label` (`Average`, `Good`, `Excellent`)[cite: 2]
+* **Total Records:** 200 student profiles
+* **Features:** 11 numerical and categorical input features (GPA, Study Hours, Attendance Rate, Class Participation, Parent Education, etc.)
+* **Target Variable:** `Performance_Label` (`Average`, `Good`, `Excellent`)
 
 ### Model Performance Comparison
 
 | Model | Accuracy | Macro F1-Score |
 | :--- | :---: | :---: |
-| **Logistic Regression (Selected)** | **92.50%**[cite: 2] | **0.8965**[cite: 2] |
-| Random Forest | 85.00%[cite: 2] | — |
-| CatBoost | 85.00%[cite: 2] | — |
-| XGBoost | 85.00%[cite: 2] | — |
+| **Logistic Regression (Selected)** | **92.50%** | **0.8965** |
+| Random Forest | 85.00% | — |
+| CatBoost | 85.00% | — |
+| XGBoost | 85.00% | — |
 
 ### Key Feature Drivers
-Based on coefficient magnitude analysis from the Logistic Regression model, the primary drivers of student performance are[cite: 2]:
-1. **Previous GPA** (Strongest predictor)[cite: 2]
-2. **Study Hours Per Day**[cite: 2]
-3. **Attendance Rate (%)**[cite: 2]
-4. **Class Participation**[cite: 2]
+Based on coefficient magnitude analysis from the Logistic Regression model, the primary drivers of student performance are:
+1. **Previous GPA** (Strongest predictor)
+2. **Study Hours Per Day**
+3. **Attendance Rate (%)**
+4. **Class Participation**
 
 ---
 
@@ -64,5 +64,5 @@ Based on coefficient magnitude analysis from the Logistic Regression model, the 
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/student-performance-dashboard.git](https://github.com/your-username/student-performance-dashboard.git)
+git clone [https://github.com/ejiro-eyitene/student-performance-dashboard.git](https://github.com/ejiro-eyitene/student-performance-dashboard.git)
 cd student-performance-dashboard
